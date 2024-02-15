@@ -2,7 +2,7 @@ const mineflayer = require('mineflayer')
 
 const bot = mineflayer.createBot({
   host: 'biriyirmiiki.aternos.me', // minecraft server ip
-  username: 'ramos', // username to join as if auth is `offline`, else a unique identifier for this account. Switch if you want to change accounts
+  username: 'nauw', // username to join as if auth is `offline`, else a unique identifier for this account. Switch if you want to change accounts
   auth: 'offline',
   port: 18911,
 })
