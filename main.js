@@ -19,7 +19,7 @@ app.use('/resources', express.static(path.join(__dirname, 'html', 'resources')))
 
 // Route to serve the HTML form
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'html', 'login.html'));
+    res.sendFile(path.join(__dirname, 'html', 'login2.html'));
 });
 
 // Route to handle form submission
